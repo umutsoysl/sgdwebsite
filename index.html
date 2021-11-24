@@ -621,6 +621,9 @@
                 <label for="message">Açıklama*</label>
                 <textarea name="message" rows="1" placeholder="Birşeyler yaz..."></textarea>
               </div>
+              <div class="ud-form-group">
+                  <div class="g-recaptcha" data-sitekey="6LfeLlgdAAAAAIol4endepnwBXqioysO1597_Fg7"></div>
+              </div>
               <div class="ud-form-group mb-0">
                 <input type="button" onclick="sendEmail()" value="Mesajı Gönder" class="ud-main-btn" />
               </div>
@@ -779,6 +782,10 @@
   <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?hl=tr" async defer></script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>
   <script>
     // ==== for menu scroll
     const pageLink = document.querySelectorAll(".ud-menu-scroll");
