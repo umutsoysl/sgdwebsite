@@ -148,7 +148,13 @@
               <h3 class="ud-feature-title">Çocuk Check-Up Paketi</h3>
               <p class="ud-feature-desc">
                 Çocuk Check-Up Paketi ile her günü sağlıklı olsun!
+                <span id="child_dots">...</span>
+                <span id="child_more" style="display: none;"></br>
+                   Çocuk check-up paketiyle; çocuğunuzu,
+                   gülüşündeki canlılığı azaltabilecek risklere karşı koruyabilir, 
+                   onun her güne sağlıklı ve mutlu başlamasını sağlayabilirsiniz.</span>
               </p>
+              <a rel="nofollow noopener" class="ud-link-btn" onclick="readMoreChild()" id="readMoreChildButton">Daha Fazla</a>
             </div>
           </div>
         </div>
@@ -161,7 +167,13 @@
               <h3 class="ud-feature-title">Kanser Check-Up Paketi</h3>
               <p class="ud-feature-desc">
                 Sağlığınız elinizde, sevdikleriniz yanınızda olsun.
+                <span id="kanser_dots">...</span>
+                <span id="kanser_more" style="display: none;"></br>
+                  Pek çok kanser türünün riskleri bir yere kadar tarama ile değerlendirilmiş olur. 
+                  Kesin tanılar ise ancak biyopsi ile konur. Biyopsi öncesine kadar hiçbir bulgu kesinmiş gibi değerlendirilmemelidir. 
+                  Çok detaylı görüntülemeler check up taraması için uygun değildir. Gereksiz ileri tetkiklere sebep olurlar.</span>
               </p>
+              <a rel="nofollow noopener" class="ud-link-btn" onclick="readMoreKanser()" id="readMoreKanserButton">Daha Fazla</a>
             </div>
           </div>
         </div>
@@ -173,8 +185,14 @@
             <div class="ud-feature-content">
               <h3 class="ud-feature-title">Kadınlara Özel Check-Up Paketi</h3>
               <p class="ud-feature-desc">
-                Kadınlara özel hazırladığımız check-up paketiyle, pek çok sağlık sorununu engelleyerek gülüşünüzün canlı kalmasını sağlayabilirsiniz.
+                Kadınlara özel hazırladığımız check-up paketiyle, pek çok sağlık 
+                <span id="women_dots">...</span>
+                <span id="women_more" style="display: none;">sorununu engelleyerek gülüşünüzün canlı
+                    kalmasını sağlayabilirsiniz.</br>
+                  Kendine her zaman özen gösteren siz kadınlara özel hazırladığımız check-up paketiyle; 
+                  başta şeker, tansiyon, meme ve rahimde oluşabilecek hastalıklar olmak üzere pek çok sağlık sorununu engelleyerek gülüşünüzün canlı kalmasını sağlayabilirsiniz.</span>
               </p>
+              <a rel="nofollow noopener" class="ud-link-btn" onclick="readMoreWomen()" id="readMoreWomenButton">Daha Fazla</a>
             </div>
           </div>
         </div>
@@ -186,8 +204,13 @@
             <div class="ud-feature-content">
               <h3 class="ud-feature-title">Erkeklere Özel Check-Up Paketi</h3>
               <p class="ud-feature-desc">
-                Erkeklere özel hazırladığımız check-up paketiyle, pek çok sağlık sorununu engelleyerek hayat enerjinizin eksilmeden devam etmesini sağlayabilirsiniz.
-              </p>
+                Erkeklere özel hazırladığımız check-up paketiyle, pek çok sağlık
+                <span id="man_dots">...</span>
+                <span id="man_more" style="display: none;"> sorununu engelleyerek hayat enerjinizin
+                    eksilmeden devam etmesini sağlayabilirsiniz.</br>
+                    Kendini daima dinamik hisseden siz erkeklere özel hazırladığımız check-up paketiyle, prostat kanserinden, görme problemlerine kadar oluşabilecek pek çok sağlık sorununu engelleyerek hayat enerjinizin eksilmeden devam etmesini sağlayabilirsiniz.
+                  </p>
+              <a rel="nofollow noopener" class="ud-link-btn" onclick="readMoreMan()" id="readMoreManButton">Daha Fazla</a>
             </div>
           </div>
         </div>
@@ -199,8 +222,8 @@
             <div class="ud-feature-content">
               <h3 class="ud-feature-title">Kardiyoloji Check-Up</h3>
               <p class="ud-feature-desc">
-                Kardiyoloji check-up paketiyle kalp sağlığınızı etkileyebilecek hastalıklara karşı önlem alabilirsiniz.             
-               </p>
+                Kardiyoloji check-up paketiyle kalp sağlığınızı etkileyebilecek hastalıklara karşı önlem alabilirsiniz.
+              </p>
             </div>
           </div>
         </div>
@@ -212,8 +235,9 @@
             <div class="ud-feature-content">
               <h3 class="ud-feature-title">Hızlı Kış Check-Up Paketi</h3>
               <p class="ud-feature-desc">
-                Hızlı kış check-up paketiyle kış mevsiminde sağlığınızı etkileyebilecek hastalıklara karşı önlem alabilirsiniz.            
-               </p>
+                Hızlı kış check-up paketiyle kış mevsiminde sağlığınızı etkileyebilecek hastalıklara karşı önlem
+                alabilirsiniz.
+              </p>
             </div>
           </div>
         </div>
@@ -225,8 +249,8 @@
             <div class="ud-feature-content">
               <h3 class="ud-feature-title">Kapsamlı Check-Up Paketi</h3>
               <p class="ud-feature-desc">
-                Kapsamlı check-up paketiyle sağlığınızı etkileyebilecek hastalıklara karşı önlem alabilirsiniz.         
-               </p>
+                Kapsamlı check-up paketiyle sağlığınızı etkileyebilecek hastalıklara karşı önlem alabilirsiniz.
+              </p>
             </div>
           </div>
         </div>
@@ -622,10 +646,11 @@
                 <textarea name="message" rows="1" placeholder="Birşeyler yaz..."></textarea>
               </div>
               <div class="ud-form-group">
-                  <div class="g-recaptcha" data-sitekey="6LfeLlgdAAAAAIol4endepnwBXqioysO1597_Fg7"></div>
+                <div class="g-recaptcha" data-sitekey="6LfeLlgdAAAAAIol4endepnwBXqioysO1597_Fg7"></div>
               </div>
               <div class="ud-form-group mb-0">
-                <input type="button" onclick="sendEmail()" value="Mesajı Gönder" class="ud-main-btn" />
+                <input name="emailSend" id="emailSend" onclick="sendEmail()" value="Mesajı Gönder"
+                  class="ud-main-btn" />
               </div>
             </form>
           </div>
@@ -655,8 +680,7 @@
                 <img src="assets/images/logo/logo.svg" alt="logo" />
               </a>
               <p class="ud-widget-desc">
-                We create digital experiences for brands and companies by
-                using technology.
+                Sağlıkta Destekcim ile artık herşey çok kolay!
               </p>
               <ul class="ud-widget-socials">
                 <li>
@@ -685,58 +709,19 @@
 
           <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
             <div class="ud-widget">
-              <h5 class="ud-widget-title">About Us</h5>
+              <h5 class="ud-widget-title">Sağlıkta Destekcim</h5>
               <ul class="ud-widget-links">
                 <li>
-                  <a href="javascript:void(0)">Home</a>
+                  <a class="ud-menu-scroll" href="#home">Anasayfa</a>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">Features</a>
+                  <a class="ud-menu-scroll" href="#features">Check-Up Paketleri</a>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">About</a>
+                  <a class="ud-menu-scroll" href="#about">Hakkımızda</a>
                 </li>
                 <li>
-                  <a href="javascript:void(0)">Testimonial</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-            <div class="ud-widget">
-              <h5 class="ud-widget-title">Features</h5>
-              <ul class="ud-widget-links">
-                <li>
-                  <a href="javascript:void(0)">How it works</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Privacy policy</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Terms of service</a>
-                </li>
-                <li>
-                  <a href="javascript:void(0)">Refund policy</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-            <div class="ud-widget">
-              <h5 class="ud-widget-title">Our Products</h5>
-              <ul class="ud-widget-links">
-                <li>
-                  <a href="https://lineicons.com/" rel="nofollow noopner" target="_blank">Lineicons
-                  </a>
-                </li>
-                <li>
-                  <a href="https://ecommercehtml.com/" rel="nofollow noopner" target="_blank">Ecommerce HTML</a>
-                </li>
-                <li>
-                  <a href="https://ayroui.com/" rel="nofollow noopner" target="_blank">Ayro UI</a>
-                </li>
-                <li>
-                  <a href="https://graygrids.com/" rel="nofollow noopner" target="_blank">Plain Admin</a>
+                  <a class="ud-menu-scroll" href="#faq">Sorular</a>
                 </li>
               </ul>
             </div>
@@ -783,9 +768,8 @@
   <script src="assets/js/main.js"></script>
   <script type="text/javascript" src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="https://www.google.com/recaptcha/api.js?hl=tr" async defer></script>
-  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-    async defer>
-</script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+  </script>
   <script>
     // ==== for menu scroll
     const pageLink = document.querySelectorAll(".ud-menu-scroll");
@@ -827,20 +811,89 @@
       }
     }
 
+    function readMoreChild() {
+      var dots = document.getElementById("child_dots");
+      var moreText = document.getElementById("child_more");
+      var btnText = document.getElementById("readMoreChildButton");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Daha Fazla";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Kapat";
+        moreText.style.display = "inline";
+      }
+    }
+
+    function readMoreKanser() {
+      var dots = document.getElementById("kanser_dots");
+      var moreText = document.getElementById("kanser_more");
+      var btnText = document.getElementById("readMoreKanserButton");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Daha Fazla";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Kapat";
+        moreText.style.display = "inline";
+      }
+    }
+
+    function readMoreWomen() {
+      var dots = document.getElementById("women_dots");
+      var moreText = document.getElementById("women_more");
+      var btnText = document.getElementById("readMoreWomenButton");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Daha Fazla";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Kapat";
+        moreText.style.display = "inline";
+      }
+    }
+
+    function readMoreMan() {
+      var dots = document.getElementById("man_dots");
+      var moreText = document.getElementById("man_more");
+      var btnText = document.getElementById("readMoreManButton");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Daha Fazla";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Kapat";
+        moreText.style.display = "inline";
+      }
+    }
+
     // send email
     function sendEmail() {
-      Email.send({
-        Host: "smtp.gmail.com",
-        Username: "usoysal41@gmail.com",
-        Password: "1311050853",
-        To: 'usoysal41@gmail.com',
-        From: "usoysal41@gmail.com",
-        Subject: "Sending Email using javascript",
-        Body: "Well that was easy!!",
-      })
-        .then(function (message) {
-          alert("mail sent successfully")
-        });
+      var v = grecaptcha.getResponse();
+      if (v.length != 0) {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "usoysal41@gmail.com",
+          Password: "1311050853",
+          To: 'usoysal41@gmail.com',
+          From: "usoysal41@gmail.com",
+          Subject: "Sending Email using javascript",
+          Body: "Well that was easy!!",
+        })
+          .then(function (message) {
+            alert("mail sent successfully")
+          });
+      } else {
+        alert("ben robot degilim dogrulaması yapın")
+      }
     }
 
     window.document.addEventListener("scroll", onScroll);
